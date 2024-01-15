@@ -6,23 +6,23 @@
 
     <Grid Margin="10" RowDefinitions="2*,5*,*" ColumnDefinitions="*">
 
-        <Label Grid.Row="0" Grid.Column="0" BackgroundColor="YellowGreen">
+        <Label Grid.Row="0" Grid.Column="0" BackgroundColor="YellowGreen" TextColor="Black">
             
         </Label>
         <Grid Grid.Row="1" RowDefinitions="*,*,*" ColumnDefinitions="*,*,*,*">
             
-            <Button Grid.Column="0" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5" Text=""/>
-            <Button Grid.Column="1" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="2" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="3" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="0" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="1" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="2" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="3" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="0" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="1" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="2" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5"/>
-            <Button Grid.Column="3" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5"/>
+            <Button Grid.Column="0" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5" Text="7"/>
+            <Button Grid.Column="1" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5" Text="8"/>
+            <Button Grid.Column="2" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5" Text="9"/>
+            <Button Grid.Column="3" Grid.Row="0" BackgroundColor="DodgerBlue" Margin="5" Text="-"/>
+            <Button Grid.Column="0" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5" Text="4"/>
+            <Button Grid.Column="1" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5" Text="5"/>
+            <Button Grid.Column="2" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5" Text="6"/>
+            <Button Grid.Column="3" Grid.Row="1" BackgroundColor="DodgerBlue" Margin="5" Text="+"/>
+            <Button Grid.Column="0" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5" Text="1"/>
+            <Button Grid.Column="1" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5" Text="2"/>
+            <Button Grid.Column="2" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5" Text="3"/>
+            <Button Grid.Column="3" Grid.Row="2" BackgroundColor="DodgerBlue" Margin="5" Text="0"/>
         </Grid>
         <Button Grid.Row="2" Grid.ColumnSpan="4" WidthRequest="300" BackgroundColor="CadetBlue" Text="=" FontSize="50" HorizontalOptions="Center" VerticalOptions="Center">
             
